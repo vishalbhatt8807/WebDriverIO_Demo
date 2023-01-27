@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671085259354' stop='1671085283638'>
+    <name>Home page</name>
+    <title>Home page</title>
+    <test-cases>
+        <test-case start='1671085259357' status='passed' stop='1671085269451'>
+            <name>Verify title in homepage</name>
+            <title>Verify title in homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6098955f-5f8b-4c72-ab27-d496f607e6f8-attachment.png' type='image/png' size='177700'/>
+            </attachments>
+        </test-case>
+        <test-case start='1671085269452' status='pending' stop='1671085269452'>
+            <name>Verify title in about page</name>
+            <title>Verify title in about page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1671085269453' status='passed' stop='1671085278707'>
+            <name>Click on get Started and validate Url</name>
+            <title>Click on get Started and validate Url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f613d92c-27a0-42e3-b40e-83084bea65e4-attachment.png' type='image/png' size='177700'/>
+            </attachments>
+        </test-case>
+        <test-case start='1671085278708' status='failed' stop='1671085283635'>
+            <name>Find the heading element and assert text</name>
+            <title>Find the heading element and assert text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7023dca5-9781-4370-bfb9-e19e112d662f-attachment.png' type='image/png' size='177700'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Think different. Make different!"
+                Received: "Think different. Make different."</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Think different. Make different!"
+                Received: "Think different. Make different."
+                    at Context.&lt;anonymous> (C:\Users\ViSHAL BHATT\Desktop\vishal_WebdriverIO\wdio_course\test\specs\/home.js:34:35)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

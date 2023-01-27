@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671093666993' stop='1671093674314'>
+    <name>Navigation function</name>
+    <title>Navigation function</title>
+    <test-cases>
+        <test-case start='1671093666996' status='passed' stop='1671093674311'>
+            <name>Navigate to menus and assert all navigated menu</name>
+            <title>Navigate to menus and assert all navigated menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-108.0.1462.42'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='577a6183-da9d-4a8c-8a30-2bcd43e0d044-attachment.png' type='image/png' size='139881'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

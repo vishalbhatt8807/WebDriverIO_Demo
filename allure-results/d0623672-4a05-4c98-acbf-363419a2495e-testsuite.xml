@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671188475360' stop='1671188500201'>
+    <name>Contact page</name>
+    <title>Contact page</title>
+    <test-cases>
+        <test-case start='1671188475361' status='passed' stop='1671188500200'>
+            <name>Fill form and assert message</name>
+            <title>Fill form and assert message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-108.0.1462.46'/>
+                <parameter kind='argument' name='browser' value='msedge-108.0.1462.46'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f20cd705-98ae-4fbe-b9a1-42da32c9ad00-attachment.png' type='image/png' size='24519'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

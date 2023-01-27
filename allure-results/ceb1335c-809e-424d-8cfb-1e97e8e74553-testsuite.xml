@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671084152986' stop='1671084163014'>
+    <name>Blog page</name>
+    <title>Blog page</title>
+    <test-cases>
+        <test-case start='1671084152988' status='passed' stop='1671084163013'>
+            <name>Go to to Blog Page and assert contain length</name>
+            <title>Go to to Blog Page and assert contain length</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

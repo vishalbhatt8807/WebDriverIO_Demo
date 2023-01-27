@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671093667915' stop='1671093684702'>
+    <name>iframe operation</name>
+    <title>iframe operation</title>
+    <test-cases>
+        <test-case start='1671093667917' status='broken' stop='1671093684698'>
+            <name>Perform iframe Upload Operation and assert value</name>
+            <title>Perform iframe Upload Operation and assert value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='40656b0e-b89f-4a8a-9973-1b014dd85a8e-attachment.png' type='image/png' size='370737'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//a[@href="https://academy.sdetunicorns.com" and @data-wpel-link="external"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//a[@href="https://academy.sdetunicorns.com" and @data-wpel-link="external"]" because element wasn't found
+                    at Context.&lt;anonymous> (C:\Users\ViSHAL BHATT\Desktop\vishal_WebdriverIO\wdio_course\test\specs\/iframe.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
